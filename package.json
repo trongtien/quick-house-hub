@@ -4,7 +4,9 @@
   "version": "0.0.0",
   "scripts": {
     "build": "turbo run build",
+    "build:all": "turbo run build --force",
     "dev": "turbo run dev",
+    "dev:local": "turbo run dev --filter=!@quick-house-hub/ui --filter=!@quick-house-hub/utils",
     "lint": "turbo run lint",
     "lint:ox": "oxlint .",
     "lint:ox:fix": "oxlint --fix .",
