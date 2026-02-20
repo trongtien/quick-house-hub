@@ -1,9 +1,13 @@
 {
-  "extends": "@quick-house-hub/tsconfig/svelte.json",
-  "compilerOptions": {
-    "paths": {
-      "@quick-house-hub/admin-panel/*": ["./src/*"]
-    }
-  },
-  "include": ["src"]
+    "extends": "@quick-house-hub/tsconfig/svelte.json",
+    "compilerOptions": {
+        "paths": {
+            "@quick-house-hub/admin-panel/*": [
+                "./src/*"
+            ]
+        }
+    },
+    "include": [
+        "src"
+    ]
 }

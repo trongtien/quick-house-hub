@@ -1,37 +1,37 @@
 {
-  "name": "app-test",
-  "version": "1.0.0",
-  "private": true,
-  "type": "module",
-  "scripts": {
-    "build": "rsbuild build",
-    "dev": "rsbuild dev --open",
-    "format": "prettier --write .",
-    "preview": "rsbuild preview",
-    "svelte-check": "svelte-check --tsconfig ./tsconfig.json",
-    "test": "rstest",
-    "test:watch": "rstest --watch"
-  },
-  "dependencies": {
-    "@libs/theme-token": "workspace:*",
-    "svelte": "^5.46.1"
-  },
-  "devDependencies": {
-    "@conventions/rsbuild-config": "workspace:*",
-    "@conventions/rstest-config": "workspace:*",
-    "@quick-house-hub/tsconfig": "workspace:*",
-    "@rsbuild/core": "^1.7.1",
-    "@rsbuild/plugin-sass": "^1.0.0",
-    "@rsbuild/plugin-svelte": "^1.0.11",
-    "@rstest/core": "^0.7.8",
-    "@tailwindcss/postcss": "^4.1.18",
-    "@testing-library/dom": "^10.4.1",
-    "@testing-library/jest-dom": "^6.9.1",
-    "happy-dom": "^20.0.11",
-    "prettier": "^3.7.3",
-    "sass": "^1.87.0",
-    "svelte-check": "^4.3.5",
-    "tailwindcss": "^4.1.18",
-    "typescript": "^5.9.3"
-  }
+    "name": "app-test",
+    "version": "1.0.0",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "build": "rsbuild build",
+        "dev": "rsbuild dev --open",
+        "lint": "prettier --write .",
+        "preview": "rsbuild preview",
+        "svelte-check": "svelte-check --tsconfig ./tsconfig.json",
+        "test": "rstest",
+        "test:watch": "rstest --watch"
+    },
+    "dependencies": {
+        "@libs/theme-token": "workspace:*",
+        "svelte": "^5.46.1"
+    },
+    "devDependencies": {
+        "@conventions/rsbuild-config": "workspace:*",
+        "@conventions/rstest-config": "workspace:*",
+        "@quick-house-hub/tsconfig": "workspace:*",
+        "@rsbuild/core": "^1.7.1",
+        "@rsbuild/plugin-sass": "^1.0.0",
+        "@rsbuild/plugin-svelte": "^1.0.11",
+        "@rstest/core": "^0.7.8",
+        "@tailwindcss/postcss": "^4.1.18",
+        "@testing-library/dom": "^10.4.1",
+        "@testing-library/jest-dom": "^6.9.1",
+        "happy-dom": "^20.0.11",
+        "prettier": "^3.7.3",
+        "sass": "^1.87.0",
+        "svelte-check": "^4.3.5",
+        "tailwindcss": "^4.1.18",
+        "typescript": "^5.9.3"
+    }
 }
