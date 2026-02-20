@@ -1,0 +1,12 @@
+{
+  "name": "@conventions/vite-config",
+  "version": "1.0.0",
+  "description": "Shared Vite configuration for Svelte applications",
+  "main": "index.ts",
+  "types": "index.ts",
+  "peerDependencies": {
+    "vite": "^5.0.0 || ^6.0.0",
+    "@sveltejs/vite-plugin-svelte": "^3.0.0 || ^4.0.0",
+    "svelte": "^4.0.0 || ^5.0.0"
+  }
+}

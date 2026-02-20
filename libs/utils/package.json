@@ -11,7 +11,7 @@
     "lint:ox": "oxlint ."
   },
   "devDependencies": {
-    "@quick-house-hub/tsconfig": "*",
+    "@quick-house-hub/tsconfig": "workspace:*",
     "typescript": "^5.3.3"
   }
 }

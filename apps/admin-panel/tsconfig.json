@@ -1,0 +1,16 @@
+{
+    "extends": "@quick-house-hub/tsconfig/svelte.json",
+    "compilerOptions": {
+        "paths": {
+            "@quick-hoise-hub/admin-panel/*": [
+                "./src/*"
+            ]
+        }
+    },
+    "include": [
+        "src"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}

@@ -1,0 +1,28 @@
+{
+  "rules": {
+    "correctness": "warn",
+    "suspicious": "warn",
+    "perf": "warn",
+    "eslint/func-style": "off",
+    "eslint/sort-keys": "off",
+    "unicorn/filename-case": "off"
+  },
+  "categories": {
+    "correctness": "warn",
+    "suspicious": "warn",
+    "pedantic": "off",
+    "perf": "warn",
+    "restriction": "off",
+    "style": "off",
+    "nursery": "off"
+  },
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "node": true
+  },
+  "globals": {
+    "React": "readonly",
+    "JSX": "readonly"
+  }
+}

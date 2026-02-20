@@ -1,5 +1,5 @@
 {
-  "name": "web",
+  "name": "@quick-house-hub/web",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -10,14 +10,14 @@
     "lint:ox": "oxlint ."
   },
   "dependencies": {
-    "@quick-house-hub/ui": "*",
-    "@quick-house-hub/utils": "*",
+    "@quick-house-hub/ui": "workspace:*",
+    "@quick-house-hub/utils": "workspace:*",
     "next": "^14.2.35",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "@quick-house-hub/tsconfig": "*",
+    "@quick-house-hub/tsconfig": "workspace:*",
     "@types/node": "^20.19.32",
     "@types/react": "^18.3.28",
     "@types/react-dom": "^18.3.7",

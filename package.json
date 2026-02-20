@@ -2,11 +2,6 @@
   "name": "quick-house-hub",
   "private": true,
   "version": "0.0.0",
-  "workspaces": [
-    "apps/*",
-    "libs/*",
-    "conventions/*"
-  ],
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev",
@@ -26,5 +21,5 @@
   "engines": {
     "node": ">=18"
   },
-  "packageManager": "npm@10.2.4"
+  "packageManager": "pnpm@9.0.0"
 }
