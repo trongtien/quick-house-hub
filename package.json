@@ -1,0 +1,30 @@
+{
+  "name": "quick-house-hub",
+  "private": true,
+  "version": "0.0.0",
+  "workspaces": [
+    "apps/*",
+    "libs/*",
+    "conventions/*"
+  ],
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "lint:ox": "oxlint .",
+    "lint:ox:fix": "oxlint --fix .",
+    "test": "turbo run test",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "check": "oxlint . && turbo run lint"
+  },
+  "devDependencies": {
+    "oxlint": "^1.46.0",
+    "prettier": "^3.2.5",
+    "turbo": "^2.0.0",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "packageManager": "npm@10.2.4"
+}
