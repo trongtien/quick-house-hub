@@ -1,9 +1,17 @@
 {
   "name": "@libs/theme-token",
   "version": "1.0.0",
+  "type": "module",
   "description": "Shared theme tokens, Tailwind CSS configuration and design system",
   "main": "index.ts",
   "types": "index.ts",
+  "exports": {
+    ".": {
+      "import": "./index.ts",
+      "require": "./index.ts"
+    },
+    "./postcss.config.js": "./postcss.config.js"
+  },
   "peerDependencies": {
     "tailwindcss": "^4.0.0",
     "@tailwindcss/postcss": "^4.0.0",

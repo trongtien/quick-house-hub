@@ -23,7 +23,11 @@ export function registerViteSvelte(options: ViteSvelteOptions = {}) {
   const utilsPath = path.resolve(workspaceRoot, "libs/utils/src");
 
   return defineConfig({
-    plugins: [svelte(svelteOptions)],
+    plugins: [
+      svelte({
+        ...svelteOptions,
+      }),
+    ],
     server: {
       port,
       strictPort: false,

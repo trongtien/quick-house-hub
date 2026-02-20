@@ -1,0 +1,37 @@
+// Demo SCSS file to test SCSS compilation
+$primary-color: #0ea5e9;
+$secondary-color: #a855f7;
+$font-stack: Inter, sans-serif;
+
+// Nested selectors
+.demo {
+  font-family: $font-stack;
+  color: $primary-color;
+
+  &:hover {
+    color: $secondary-color;
+  }
+
+  .nested {
+    padding: 1rem;
+
+    // Mixins support
+    @mixin flex-center {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    @include flex-center;
+  }
+}
+
+// Functions
+@function calculate-spacing($multiplier) {
+  @return $multiplier * 0.5rem;
+}
+
+.spacing-demo {
+  padding: calculate-spacing(4);
+  margin: calculate-spacing(2);
+}
