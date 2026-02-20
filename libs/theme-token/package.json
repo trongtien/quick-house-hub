@@ -1,0 +1,13 @@
+{
+  "name": "@libs/theme-token",
+  "version": "1.0.0",
+  "description": "Shared theme tokens, Tailwind CSS configuration and design system",
+  "main": "index.ts",
+  "types": "index.ts",
+  "peerDependencies": {
+    "tailwindcss": "^4.0.0",
+    "@tailwindcss/postcss": "^4.0.0",
+    "autoprefixer": "^10.0.0",
+    "postcss": "^8.0.0"
+  }
+}

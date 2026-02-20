@@ -1,4 +1,4 @@
-import { createTailwindConfig } from "@conventions/tailwindcss";
+import { createTailwindConfig } from "@libs/theme-token";
 import type { Config } from "tailwindcss";
 
 const config: Config = createTailwindConfig({

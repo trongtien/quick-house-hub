@@ -15,10 +15,11 @@
     "@quick-house-hub/utils": "workspace:*"
   },
   "devDependencies": {
-    "@conventions/tailwindcss": "workspace:*",
     "@conventions/vite-config": "workspace:*",
+    "@libs/theme-token": "workspace:*",
     "@quick-house-hub/tsconfig": "workspace:*",
     "@sveltejs/vite-plugin-svelte": "^5.0.3",
+    "@tailwindcss/postcss": "^4.1.18",
     "@types/node": "^20.19.32",
     "autoprefixer": "^10.4.24",
     "postcss": "^8.5.6",
