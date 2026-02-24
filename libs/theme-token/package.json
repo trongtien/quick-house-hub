@@ -10,6 +10,7 @@
       "import": "./index.ts",
       "require": "./index.ts"
     },
+    "./theme.css": "./theme.css",
     "./postcss.config.js": "./postcss.config.js"
   },
   "peerDependencies": {

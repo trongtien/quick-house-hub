@@ -1,1 +1,6 @@
-export { createTailwindConfig, sharedTheme, type Config } from "./theme";
+export {
+  createTailwindConfig,
+  sharedTheme,
+  lightThemeVariables,
+  type Config,
+} from "./theme";
